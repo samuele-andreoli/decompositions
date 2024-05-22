@@ -13,8 +13,7 @@ def _order_prime(a, p, pm1_divisors):
         if pow(a, d, p) == 1:
             return d
     
-    # Should never get here
-    return p-1
+    raise ArithmeticError("No value for order in divisors")
 
 
 def _order_primepower(a, p, e, pm1_divisors):
