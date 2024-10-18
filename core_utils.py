@@ -30,9 +30,4 @@ def _order_primepower(a, p, e, pm1_divisors):
 
 
 def order(a, factors, divisors):
-    o = 1
-    for p, D in zip(factors, divisors):
-        o_mod_p = _order_primepower(a,p[0],p[1],D)
-        o = lcm(o,o_mod_p)
-    
-    return o
+    return lcm([_order_primepower(a,p[0],p[1],D) for p, D in zip(factors, divisors)])
