@@ -4,4 +4,4 @@ This repository contains two SageMath notebooks to recompute all data used in wr
 
 # References
 
-[AP24] S. Andreoli, G. Petrides, "Further Existence Results of Decompositions of Permutation Polynomials". Unpublished
+[1] S. Andreoli, G. Petrides, "Further Existence Results of Decompositions of Permutation Polynomials". Unpublished
